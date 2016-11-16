@@ -56,8 +56,11 @@ If you specifically know the node you want you can also run
 
 is reserving node 403 for 7000 hours.
 
-The nodes assosiated with AMLAB are on fs2 nodes 201 (2 GPUs), 202 (2 GPUs), 204 (1 GPUs).
+The nodes assosiated with AMLAB are on fs2 nodes 201 (2 GPUs), 202 (2 GPUs), 204 (1 GPUs). Run 
 
+ 	getnodeX
+
+to get node X.
 
 ## Home folder
 
@@ -76,4 +79,4 @@ Tip: its beneficial to have symbolic links between /var/scratch and your home di
 
 1. GPU is not found
 
-	unset CUDA_VISIBLE_DEVICES
+		unset CUDA_VISIBLE_DEVICES
