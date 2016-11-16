@@ -56,7 +56,7 @@ If you specifically know the node you want you can also run
 
 is reserving node 403 for 7000 hours.
 
-The nodes assosiated with AMLAB are on fs2 nodes 201 (2 GPUs), 202 (2 GPUs), 204 (1 GPUs). Run 
+The nodes assosiated with AMLAB are on fs2 nodes 201 (2 GPUs), 202 (1 GPUs), 204 (2 GPUs). Run 
 
  	getnodeX
 
