@@ -58,6 +58,7 @@ is reserving node 403 for 7000 hours.
 
 The nodes assosiated with AMLAB are on fs2 nodes 201 (2 GPUs), 202 (2 GPUs), 204 (1 GPUs).
 
+
 ## Home folder
 
 The homefolder is backed-up every day this is why you are asked to keep your data on
@@ -71,3 +72,8 @@ If you use common datasets they are available under
 
 Tip: its beneficial to have symbolic links between /var/scratch and your home dir.
 
+## Common Problems
+
+1. GPU is not found
+
+	unset CUDA_VISIBLE_DEVICES
