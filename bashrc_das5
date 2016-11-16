@@ -38,5 +38,10 @@ alias slurm-run-3='srun -u --pty --gres=gpu:3 bash -i'
 alias slurm-run-4='srun -u --pty --gres=gpu:4 bash -i'
 alias slurm-run-5='srun -u --pty --gres=gpu:5 bash -i'
 
+alias getnode1='srun -u --pty -w node201 -p bash -i'
+alias getnode2='srun -u --pty -w node202 -p bash -i'
+alias getnode3='srun -u --pty -w node204 -p fatq bash -i'
+
+
 # symbolic links
 #ln -s  /var/scratch/USERNAME/ /home/USERNAME
