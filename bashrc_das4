@@ -1,0 +1,31 @@
+# .bashrc
+
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias mywatch='/home/koelma/bin/mywatch'
+alias i='ipython'
+
+# load modules here
+module load gcc/4.9.0
+module load sge
+module load blas
+module load git/1.8.3.4
+
+module rm cuda55
+
+export PATH=/home/USERNAME/anaconda/bin:/usr/local/cuda-7.0/bin:/home/koelma/impala/third/x86_64-linux/bin:$PATH:/home/koelma/impala/third/x86_64-linux/lib:/home/USERNAME/anaconda/lib:/home/koelma/impala/third/x86_64-linux/include
+export PYTHONPATH=/home/USERNAME/caffe_bn/python:/home/USERNAME/anaconda:$BLASDIR:$PYTHONPATH
+export LD_LIBRARY_PATH=/home/USERNAME/cudnn/cudnnv5/cuda/lib64:/home/USERNAME/anaconda/lib:/usr/local/cuda-7.0:/usr/local/cuda-7.0/lib64:/home/USERNAME/cudnn/cudnnv5/cuda/lib64:/home/USERNAME/anaconda/lib:$LD_LIBRARY_PATH:/home/koelma/impala/third/x86_64-linux/lib:$BLASDIR
+
+export PKG_CONFIG_PATH=/home/USERNAME/anaconda/lib/pkgconfig:$PKG_CONFIG_PATH
+export CUDA_ROOT=/usr/local/cuda-7.0:/home/USERNAME/cudnn/cudnnv5/cuda/lib64:/home/USERNAME/cudnn/cudnnv5/cuda/include:$CUDA_ROOT
+export LIBRARY_PATH=/home/USERNAME/cudnn/cudnnv5/cuda/include:/home/USERNAME/cudnn/cudnnv5/cuda/lib64:$LIBRARY_PATH
+export CPATH=/home/USERNAME/cudnn/cudnnv5/cuda/lib64:/home/USERNAME/cudnn/cudnnv5/cuda/include:$CPATH
+
+
+
