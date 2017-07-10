@@ -62,6 +62,8 @@ The nodes assosiated with AMLAB are on fs2 nodes 201 (2 Titan X), 202 (3 Titan X
 
 to get node X.
 
+To retain a reserved node, you keep the srun command open (e.g. in a `tmux` session). If you need more connections to the node, you can `ssh node403` into it from the headnode (e.g. fs2 or fs4).
+
 ## Home folder
 
 The homefolder is backed-up every day this is why you are asked to keep your data on
