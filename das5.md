@@ -82,3 +82,9 @@ Tip: its beneficial to have symbolic links between /var/scratch and your home di
 1. GPU is not found
 
 		unset CUDA_VISIBLE_DEVICES
+		
+2. First batch is slow (tensorflow, keras, e.g.)
+in .bashrc at bottom:
+
+	export CUDA_CACHE_PATH=/local/.nv/ 
+	export CUDA_CACHE_DISABLE=0
