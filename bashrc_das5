@@ -46,3 +46,6 @@ alias getnode204='srun -u --pty -w node204 -p fatq bash -i'
 
 # symbolic links
 #ln -s  /var/scratch/USERNAME/ /home/USERNAME
+
+export CUDA_CACHE_PATH=/local/.cuda_cache/
+export CUDA_CACHE_DISABLE=0
