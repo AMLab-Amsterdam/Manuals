@@ -7,7 +7,7 @@ We will install all 3 components you need and bring them together in this tutori
 
 MongoDB is a programm that would run on a server ideally. It will collect and comunicate information with the machines that run your experiments.
 
-For installation, google install mongodb and your exact OS e.g., (Linux Mint 18)(http://linuxforever.info/2017/04/13/how-to-install-mongodb-3-4-in-linux-mint-18-ubuntu-16-04/) (makes a big difference)
+For installation, google install mongodb and your exact OS e.g., [Linux Mint 18](http://linuxforever.info/2017/04/13/how-to-install-mongodb-3-4-in-linux-mint-18-ubuntu-16-04/) (makes a big difference)
 
 You can run MongoDB on your server via 
 
