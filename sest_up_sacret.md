@@ -48,7 +48,7 @@ First you best set up a python 3(!) conda environment and install
 ! Note that this needs not to be the same environment as your project. In fact I got my own conda environment just for sacredboard.
 
 
-### 4. Bringin it all together
+### 4. bringin it all together
 
 
 Now that we got:
@@ -91,7 +91,7 @@ Except, if you run experimetns on servers of the UvA due to security stuff it is
 
 * run 
 
-	ssh -R yourport:localhost:yourport fs2
+		ssh -R yourport:localhost:yourport fs2
 
 
 
